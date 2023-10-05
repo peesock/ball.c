@@ -4,7 +4,7 @@ BIN=ballc
 all: build
 
 build:
-	$(CC) main.c -o $(BIN)
+	$(CC) main.c -lm -o $(BIN)
 
 clean:
 	rm -f $(BIN)
